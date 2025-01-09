@@ -72,7 +72,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 video {
@@ -85,7 +85,6 @@ video {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: start;
 }
 
 .search-form__fieldset {
@@ -109,11 +108,13 @@ video {
 
 .search-form__textfield {
   min-width: 225px;
+  min-height: 27px;
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   color: currentColor;
   font-family: inherit;
+  font-size: 18px;
   background-color: transparent;
   appearance: none;
 }
@@ -168,6 +169,7 @@ video {
   color: currentColor;
   font-family: inherit;
   font-weight: 700;
+  font-size: 18px;
   text-align: center;
   background-color: transparent;
   cursor: pointer;
@@ -229,12 +231,17 @@ video {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 2px;
 }
 
 .content__card-link {
   display: block;
   color: #fff;
   text-decoration: none;
+}
+
+.content__card-link:active {
+  background-color: #545050;
 }
 
 .content__card-link:focus {
