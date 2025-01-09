@@ -104,6 +104,7 @@ video {
   align-items: center;
   gap: 5px;
   width: fit-content;
+  cursor: pointer;
 }
 
 .search-form__textfield {
@@ -156,11 +157,7 @@ video {
   display: block;
 }
 
-.search-form__label {
-  cursor: pointer;
-}
-
-.search-form__label:hover .search-form__label-text{
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
